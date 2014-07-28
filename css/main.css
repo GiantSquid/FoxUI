@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IconFont';
+    src: url('../icons/iconfont.ttf');
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis','IconFont' sans-serif;
+}

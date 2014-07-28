@@ -1,0 +1,79 @@
+
+.settings_row {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    transition: 0.4s;
+}
+.settings_row:focus {
+    background-color: #ededed;
+}
+.settings_row:hover {
+    background-color: #f7f7f7;
+}
+
+.sr_item {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.sr_name {
+    text-align: right;
+    width: 130px;
+    padding-right: 10px;
+}
+
+.sr_radio {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e6e5e5;
+    cursor: pointer;
+}
+
+.sr_radio_set {
+    background-color: rgb(74,74,74);
+    color: #fff;
+}
+
+.sr_numset {
+    background-color: rgb(74,74,74);
+}
+
+.srn_input {
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+.srn_btn {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.srn_btn:hover {
+    background-color: #898989;
+}
+
+.sr_btn {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color:  rgb(74,74,74);
+    cursor: pointer;
+}
+
+.sr_help {
+    width: 40px;
+}
+
+.sr_units {
+    padding-left: 10px;
+    padding-right: 10px;
+}

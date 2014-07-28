@@ -1,0 +1,15 @@
+.v_spacer {
+    height: 40px;
+}
+
+.df_user_avatar {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 226, 226);
+    margin-left: -120px;
+    color: rgb(245, 245, 245);
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+}

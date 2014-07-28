@@ -1,0 +1,24 @@
+
+.button {
+    display: inline-block;
+    line-height: 38px;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgba(0, 0, 0, 0) 1px solid;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+    color:  rgb(74,74,74);
+}
+.button:hover {
+    background-color: #fff;
+}
+
+.btn_outline {
+    border: rgba(74, 74, 74, 1) 1px solid;
+}
+
+.btn_confirm {
+    background-color: rgba(70, 232, 117, 0.25);
+}

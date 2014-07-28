@@ -1,0 +1,51 @@
+
+.ss_tabs {
+}
+
+.tab_context {
+    border-bottom: rgba(74, 74, 74, 1) 1px solid;
+    background-color: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.tab {
+    display: inline-block;
+    line-height: 38px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    color: rgb(134, 134, 134);
+}
+.tab:hover {
+   color: rgba(74, 74, 74, 1);
+}
+
+.active_tab {
+    position: relative;
+    background-color: #fff;
+    border: rgba(74, 74, 74, 1) 1px solid;
+    border-bottom: rgba(256, 256, 256, 1);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 8px;
+    bottom: -3px;
+    color: rgba(74, 74, 74, 1);
+    font-size: 1.2em;
+    transition: 0.2s;
+}
+
+.tab_list_btn {
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+.tab_list_btn:hover {
+    color: rgba(74, 74, 74, 1);
+}
+
+.tab_row {
+    border-bottom: rgba(74, 74, 74, 1) 1px solid;
+}
